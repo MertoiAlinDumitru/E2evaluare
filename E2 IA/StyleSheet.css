@@ -1,0 +1,59 @@
+﻿body {
+    background-color:black;
+}
+
+h1, h5 {
+    color: white;
+    font-family: Constantia;
+}
+
+table {
+    background-color: darkblue;
+    color: white;
+    font-family: Constantia;
+}
+th, td {
+    border: 1px solid;
+}
+
+ul {
+    background-color: darkred;
+    color: white;
+    font-family: Constantia;
+    margin-left: 5%;
+    margin-right: 75%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.container {
+    display: flex;
+}
+
+#slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#startButton {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
